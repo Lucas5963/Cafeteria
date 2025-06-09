@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>lc cafe</title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="videos/Coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/logo.png" alt="logo-cafeteria">
+            </a>
+            <nav>
+                <a href="#1">home</a>
+                <a href="#2">sobre</a>
+                <a href="#" onclick="mostarModal()">Endereço</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <section id="1" class="caixa-principal">
+        <div>
+            <h3>code com o melhor cafe da região</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium iste quos, quo perferendis
+                reiciendis dignissimos soluta atque laboriosam quibusdam distinctio asperiores voluptatum ipsum
+                ipsam aut, dicta necessitatibus eos optio odit!</p>
+            <a class="botão-link" href="">pague o seu agora</a>
+        </div>
+    </section>
+
+
+
+    <section id="2" class="caixa-sobre">
+        <h2 class="titulo"> <span>sobre</span> nois</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="img/about-img.jpg" alt="">
+            </div>
+            <div class="sobre-texto">
+                <h3>o que faz nosso cafe especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, placeat? Alias ea accusamus
+                    adipisci blanditiis dignissimos inventore, perspiciatis quis, corrupti debitis eveniet qui saepe
+                    corporis laborum facere repellat praesentium iusto!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatur, deleniti reprehenderit
+                    voluptatem voluptatum tenetur reiciendis vitae nihil distinctio quis facere qui adipisci? Maxime
+                    doloribus dolore numquam in voluptatem mollitia!</p>
+                <a class="botão-link" href="">saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span>Endereço</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29416.77086237893!2d-43.29673099122902!3d-22.835924273217593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b968e57ebbd%3A0x53f645ee6c5893d9!2sPenha%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1749433690414!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="mascara-modal" onclick="esconderModal()"> 
+
+    </div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
